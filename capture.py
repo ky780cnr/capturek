@@ -40,7 +40,7 @@ def send_message_to_webhook(webhook_url, username, message):
             print("[+]Message sent successfully.")
         else:
             print(f"[-]Error sending message. HTTP status code: {response.status_code}")
-            #print("[+]Message sent successfully")
+            
 
     except Exception as e:
         print(f"[-]Error sending message to webhook: {e}")
